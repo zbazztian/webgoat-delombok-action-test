@@ -31,8 +31,11 @@ jobs:
         java-package: jdk
         architecture: x64
 
+    #- name: Delombok
+    #  uses: lcartey/delombok-action@v1.0
+
     - name: Delombok
-      uses: lcartey/delombok-action@v1.0
+      uses: zbazztian/delombok@main
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v1
