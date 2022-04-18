@@ -31,9 +31,6 @@ jobs:
         java-package: jdk
         architecture: x64
 
-    #- name: Delombok
-    #  uses: lcartey/delombok-action@v1.0
-
     - name: Delombok
       uses: zbazztian/delombok@main
 
